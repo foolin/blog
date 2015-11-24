@@ -84,7 +84,7 @@ deploy:
 menu:
   Home: /
   Categories:
-  About: /about/index.html
+  About: /about.html
 
 # Content
 fancybox: true
