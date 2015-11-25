@@ -19,7 +19,7 @@
     title = 'Tag: ' + page.tag;
   }
   %>
-  <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
+  <title><% if (title){ %><%= title %> | <% } %><%= config.title %> <%= config.author ? " - " + config.author : "" %></title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <% if (page.tags){
         var keywords = [];
@@ -47,7 +47,7 @@
   <% } %>
   <%- partial('google-analytics') %>
 
-<!-- 
+
   <% if(theme.use_google_apis) { %>
     <link href='//fonts.googleapis.com/css?family=Titillium+Web:300,400,600' rel='stylesheet' type='text/css'>
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
@@ -55,7 +55,7 @@
     <link href='//fonts.useso.com/css?family=Titillium+Web:300,400,600' rel='stylesheet' type='text/css'>
     <link href="//fonts.useso.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   <% } %>
- -->
+
  
   <%- css('font-awesome/css/font-awesome.min') %>
 </head>

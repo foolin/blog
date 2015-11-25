@@ -7,10 +7,8 @@ comments: true
 
 主页：[www.liufu.me](http://www.liufu.me)
 
-邮箱：ling(a)liufu.me
+邮箱：ling(at)liufu.me
 
-微博：[http://weibo.com](http://weibo.com)
-
-Q Q : 970026999
+微博：[http://weibo.com/foolin](http://weibo.com/foolin)
 
 

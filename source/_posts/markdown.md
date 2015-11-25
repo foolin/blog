@@ -1,7 +1,5 @@
-title: markdown
-date: 2015-11-24 20:15:28
 title: Markdown语法大全
-date: 2015-11-24 19:41:22
+date: 2015-11-24 20:15:28
 categories:
 - 备忘
 tags:
@@ -14,8 +12,6 @@ tags:
 [eng-doc]:http://daringfireball.net/projects/markdown/syntax
 
 **声明：** 这份文档派生(fork)于[繁体中文版](http://markdown.tw/)，在此基础上进行了繁体转简体工作，并进行了适当的润色。此文档用 Markdown 语法编写，你可以到这里[查看它的源文件][src1]。「繁体中文版的原始文件可以[查看这里][src] 。」--By @[riku][t]
-
-**注：** 本项目托管于 [GitCafe][]上，请通过"派生"和"合并请求"来帮忙改进本项目。
 
   [src1]: http://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/syntax.md
   [src]: https://github.com/othree/markdown-syntax-zhtw/blob/master/syntax.md
@@ -152,7 +148,7 @@ Markdown 将会把它转换为：
   [bq]: #blockquote
   [l]:  #list
 
-<h3 id="header">标题</h3>
+<h3>标题</h3>
 
 Markdown 支持两种标题的语法，类 [Setext] [1] 和类 [atx] [2] 形式。
 
