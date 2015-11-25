@@ -73,7 +73,7 @@ deploy:
   type: git
   repo: git@github.com:foolin/foolin.github.io.git
   branch: master
-  message: from blog
+  message: update from blog
   
 
 
